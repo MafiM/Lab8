@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>Location Add Form</h1>
+    <form method="get" action="add">
+        <p><input type="text" name="name" placeholder="Location Name"></p>
+        <p><input type="text" name="catagory" placeholder="Location catagory"></p>
+        <p><input type="text" name="longitude" placeholder="Longitude"></p>
+        <p><input type="text" name="latitude" placeholder="Latitude"></p>
+        <input type="submit" value="Add" />
+    </form>
+
+    <h1>Location update Form</h1>
+    <form method="get" action="update">
+        <p>Insert the name of location you want to update</p>
+        <p><input type="text" name="oldname" placeholder="Old Location Name"></p>
+        <p>Insert the new Information</p>
+        <p><input type="text" name="name" placeholder="New Location Name"></p>
+        <p><input type="text" name="catagory" placeholder="New Location catagory"></p>
+        <p><input type="text" name="longitude" placeholder="New Longitude"></p>
+        <p><input type="text" name="latitude" placeholder="New Latitude"></p>
+        <input type="submit" value="Update" />
+    </form>
+
+    <h1>Location Delete Form</h1>
+    <form method="get" action="deleteLocation">
+        <p>Insert the name of location you want to delete</p>
+        <p><input type="text" name="name" placeholder="Location Name"></p>
+        <input type="submit" value="Delete" />
+    </form>
+</body>
+
+</html>
